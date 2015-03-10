@@ -33,12 +33,21 @@
             top: 42px;
 		}
 
+		.denomination {
+		    letter-spacing: 0.5em;
+		}
+		
 		.slogan {
             font-weight: bold;
             color: white;
             font-size: 1.125em;
             line-height: 1.57em;
             letter-spacing: 0.025em;
+            text-shadow: rgb(31%, 36%, 58%) -0.025em 0 0,
+                rgb(31%, 36%, 58%) 0.025em 0 0,
+                rgb(31%, 36%, 58%) 0 -0.025em 0,
+                rgb(31%, 36%, 58%) 0 0.025em 0
+            ;
   		}
 
 		.logo {
@@ -59,10 +68,6 @@
             transform: rotate(-90deg) translate(-0.25em);
             right: 0.75em;
             text-indent: 9999em;
-		}
-		
-		.denomination {
-		    letter-spacing: 0.125em;
 		}
 		
 		.scarf::after,
