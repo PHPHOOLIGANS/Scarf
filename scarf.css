@@ -24,13 +24,13 @@
     }
     
 	.scarf {
-		width: 18em;
-		height: 1.7em;
 		background: rgb(53%, 57%, 75%);
+		height: 1.7em;
+		left: 50%;
 		margin: 0.2em 0.2em 0.2em -9em;
 		position: relative;
-		left: 50%;
         top: 42px;
+		width: 18em;
 	}
 
 	.denomination {
@@ -38,11 +38,11 @@
 	}
 	
 	.slogan {
-        font-weight: bold;
         color: white;
         font-size: 1.125em;
-        line-height: 1.57em;
+        font-weight: bold;
         letter-spacing: 0.025em;
+        line-height: 1.57em;
         text-shadow: rgb(31%, 36%, 58%) -0.025em 0 0,
             rgb(31%, 36%, 58%) 0.025em 0 0,
             rgb(31%, 36%, 58%) 0 -0.025em 0,
@@ -54,20 +54,20 @@
         background: center no-repeat url(php-logo.svg);
         background-size: contain;
         position: absolute;
-        width: 1.65em;
         top: 0;
+        width: 1.65em;
 	}
 	
 	.logo-left {
-        transform: rotate(90deg) translate(0.25em);
         left: 0.75em;
         text-indent: -9999em;
+        transform: rotate(90deg) translate(0.25em);
 	}
 	
 	.logo-right {
-        transform: rotate(-90deg) translate(-0.25em);
         right: 0.75em;
         text-indent: 9999em;
+        transform: rotate(-90deg) translate(-0.25em);
 	}
 	
 	.scarf::after,
@@ -80,11 +80,11 @@
         );
         background-size: 100% 0.1em;
         content: '';
-        width: 0.65em;
         display: block;
         height: 100%;
         position: absolute;
         top: 0;
+        width: 0.65em;
     }
 
 	.scarf::after {
@@ -96,12 +96,12 @@
     }
     
     .font-size-slider {
+        display: block;
+        margin: 0 auto;
         position: relative;
         top: 2em;
-        z-index: 1;
-        margin: 0 auto;
-        display: block;
         width: 50%;
+        z-index: 1;
     }
     
     .font-size-slider:focus {
