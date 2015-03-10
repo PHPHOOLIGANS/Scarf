@@ -12,99 +12,112 @@
     font-style: normal;
 }	
 
-	    * {
-	        margin: 0;
-	        padding: 0;
-	        text-align: center;
-	    }
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 
-        body {
-    		font-family: 'handelgothic_btregular';
-    		font-size: 4.5em;
-        }
-        
-		.scarf {
-    		width: 18em;
-    		height: 1.7em;
-    		background: rgb(53%, 57%, 75%);
-    		margin: 0.2em 0.2em 0.2em -9em;
-    		position: relative;
-    		left: 50%;
-            top: 42px;
-		}
+    body {
+		font-family: 'handelgothic_btregular';
+		font-size: 4.5em;
+    }
+    
+	.scarf {
+		width: 18em;
+		height: 1.7em;
+		background: rgb(53%, 57%, 75%);
+		margin: 0.2em 0.2em 0.2em -9em;
+		position: relative;
+		left: 50%;
+        top: 42px;
+	}
 
-		.denomination {
-		    letter-spacing: 0.5em;
-		}
-		
-		.slogan {
-            font-weight: bold;
-            color: white;
-            font-size: 1.125em;
-            line-height: 1.57em;
-            letter-spacing: 0.025em;
-            text-shadow: rgb(31%, 36%, 58%) -0.025em 0 0,
-                rgb(31%, 36%, 58%) 0.025em 0 0,
-                rgb(31%, 36%, 58%) 0 -0.025em 0,
-                rgb(31%, 36%, 58%) 0 0.025em 0
-            ;
-  		}
+	.denomination {
+	    letter-spacing: 0.5em;
+	}
+	
+	.slogan {
+        font-weight: bold;
+        color: white;
+        font-size: 1.125em;
+        line-height: 1.57em;
+        letter-spacing: 0.025em;
+        text-shadow: rgb(31%, 36%, 58%) -0.025em 0 0,
+            rgb(31%, 36%, 58%) 0.025em 0 0,
+            rgb(31%, 36%, 58%) 0 -0.025em 0,
+            rgb(31%, 36%, 58%) 0 0.025em 0
+        ;
+	}
 
-		.logo {
-            background: center no-repeat url(php-logo.svg);
-            background-size: contain;
-            position: absolute;
-            width: 1.65em;
-            top: 0;
-    	}
-		
-		.logo-left {
-            transform: rotate(90deg) translate(0.25em);
-            left: 0.75em;
-            text-indent: -9999em;
-		}
-		
-		.logo-right {
-            transform: rotate(-90deg) translate(-0.25em);
-            right: 0.75em;
-            text-indent: 9999em;
-		}
-		
-		.scarf::after,
-		.scarf::before {
-            background: linear-gradient( to bottom, 
-                rgb(31%, 36%, 58%), 
-                rgba(31%, 36%, 58%, 0) 50%, 
-                rgba(31%, 36%, 58%, 1) 50%, 
-                rgba(31%, 36%, 58%, 0)
-            );
-            background-size: 100% 0.1em;
-            content: '';
-            width: 0.65em;
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-        }
+	.logo {
+        background: center no-repeat url(php-logo.svg);
+        background-size: contain;
+        position: absolute;
+        width: 1.65em;
+        top: 0;
+	}
+	
+	.logo-left {
+        transform: rotate(90deg) translate(0.25em);
+        left: 0.75em;
+        text-indent: -9999em;
+	}
+	
+	.logo-right {
+        transform: rotate(-90deg) translate(-0.25em);
+        right: 0.75em;
+        text-indent: 9999em;
+	}
+	
+	.scarf::after,
+	.scarf::before {
+        background: linear-gradient( to bottom, 
+            rgb(31%, 36%, 58%), 
+            rgba(31%, 36%, 58%, 0) 50%, 
+            rgba(31%, 36%, 58%, 1) 50%, 
+            rgba(31%, 36%, 58%, 0)
+        );
+        background-size: 100% 0.1em;
+        content: '';
+        width: 0.65em;
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
 
-		.scarf::after {
-		    right: 0;
-		}
+	.scarf::after {
+	    right: 0;
+	}
 
-		.scarf::before {
-		    left: 0;
-        }
-        
-        .font-size-slider {
-            position: relative;
-            top: 2em;
-            z-index: 1;
-            margin: 0 auto;
-            display: block;
-            width: 50%;
-        }
-        
-        .font-size-slider:focus {
-            outline: 1px dotted rgba(31%, 36%, 58%, 0.5);
-        }
+	.scarf::before {
+	    left: 0;
+    }
+    
+    .font-size-slider {
+        position: relative;
+        top: 2em;
+        z-index: 1;
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+    }
+    
+    .font-size-slider:focus {
+        outline: 1px dotted rgba(31%, 36%, 58%, 0.5);
+    }
 
+    aside {
+        background-color: rgba(53%, 57%, 75%, 0.5);
+        border: 0.1em solid rgb(31%,35%,83%);
+        border-radius: 0.5em;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding: 0.5em;
+        position: fixed;
+        right: 1em;
+        top: 1em;
+        width: 15%;
+    }
+/*EOF*/
