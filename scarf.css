@@ -42,7 +42,7 @@
   		}
 
 		.logo {
-            background: center no-repeat url(php-logo.png);
+            background: center no-repeat url(php-logo.svg);
             background-size: contain;
             position: absolute;
             width: 1.65em;
