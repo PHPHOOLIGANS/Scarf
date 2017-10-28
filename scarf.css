@@ -34,7 +34,9 @@
 	}
 
 	.denomination {
-	    letter-spacing: 0.05em;
+		position: relative;
+		text-transform: capitalize;
+		top: 0.15em;
 	}
 	
 	.slogan {
