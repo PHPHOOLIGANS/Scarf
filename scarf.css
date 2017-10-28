@@ -34,9 +34,8 @@
 	}
 
 	.denomination {
-		position: relative;
+		letter-spacing: 0.05em;		
 		text-transform: capitalize;
-		top: 0.15em;
 	}
 	
 	.slogan {
@@ -63,13 +62,13 @@
 	.logo-left {
         left: 0.75em;
         text-indent: -9999em;
-        transform: rotate(90deg) translate(0.25em);
+        transform: rotate(90deg) translate(0.35em);
 	}
 	
 	.logo-right {
         right: 0.75em;
         text-indent: 9999em;
-        transform: rotate(-90deg) translate(-0.25em);
+        transform: rotate(-90deg) translate(-0.35em);
 	}
 	
 	.scarf::after,
